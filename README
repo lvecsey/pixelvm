@@ -1,0 +1,9 @@
+
+PixelVM is a small library that will interpret "bytecode" and write an image to standard out. You can run cosine and sine functions, increment and multiply, divide numbers, etc.
+
+Running 'make' will compile down to libpixelvm.a and the assorted test programs.
+
+To display an .rgb file,
+
+  display -size 1600x900 -depth 32 circleimg_gen.rgb
+
